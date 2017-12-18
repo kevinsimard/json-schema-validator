@@ -1,0 +1,20 @@
+{
+    "id": "classpath:/",
+    "name": "UserV1",
+    "directory": "input",
+    "type": "object",
+    "properties": {
+        "username": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 255
+        },
+        "gender": {
+            "$ref": "schemas/common/gender.json#/definitions/gender"
+        }
+    },
+    "required": [
+        "username",
+        "gender"
+    ]
+}

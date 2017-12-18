@@ -1,0 +1,11 @@
+{
+    "definitions": {
+        "gender": {
+            "type": "string",
+            "enum": [
+                "MALE",
+                "FEMALE"
+            ]
+        }
+    }
+}
