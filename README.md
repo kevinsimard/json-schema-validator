@@ -22,5 +22,6 @@
     ├── .editorconfig
     ├── .gitattributes
     ├── .gitignore
+    ├── LICENSE.md
     ├── README.md
     └── pom.xml
